@@ -1,14 +1,14 @@
-= McGill Utilities
+# McGill Utilities
 
-== Description
+## Description
 
 Crawl McGill's website and the Visual Schedule Builder to determine which courses are being offered and information (professor, timing, capacity) for each section/
 
-== Installation
+## Installation
 
     $ sudo gem install mcgill-utils
 
-== Usage
+## Usage
 
 So far, the gem only encapsulates the Visual Schedule Builder API in order to provide a list of sections available for each course, along with the professor and timing, etc, of each section.
 
@@ -38,7 +38,7 @@ To check whether it's possible to register for any of the sections, call `#avail
     > courses.availability
     => {"BUSA-465"=>{10097=>true}, "COMP-202"=>{823=>true, 824=>false, 825=>false}}
 
-== License
+## License
 
 This software is licensed under the MIT license.
 
